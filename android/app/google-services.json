@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "454374120099",
+    "project_id": "notely-d3f6f",
+    "storage_bucket": "notely-d3f6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454374120099:android:c7162c67a4a1ecdc28bd16",
+        "android_client_info": {
+          "package_name": "com.example.notely"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "454374120099-r4fluujth15r0hajvuk0jic1gu24the9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.notely",
+            "certificate_hash": "fdec9af215448c0ea690aad32cceafa038a7bc5d"
+          }
+        },
+        {
+          "client_id": "454374120099-7airi8eku6cn4h8e4ie0iojiugkkbfm5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgI3vt-Tqwdvxs0E3IXipAzyswtDAtd9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "454374120099-7airi8eku6cn4h8e4ie0iojiugkkbfm5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
