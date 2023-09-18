@@ -106,7 +106,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     itemCount: snapshot.data!.docs.length,
                     gridDelegate:
                         const SliverGridDelegateWithFixedCrossAxisCount(
-                            crossAxisCount: 5,
+                            crossAxisCount: 2,
                             crossAxisSpacing: 20,
                             mainAxisSpacing: 20,
                             mainAxisExtent: 280),
