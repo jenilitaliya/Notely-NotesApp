@@ -76,14 +76,14 @@ class _DrawerScreenState extends State<DrawerScreen> {
                             "${data["FirstName"]} ${data["SecondName"]}",
                             style: const TextStyle(
                                 color: Colors.white,
-                                fontSize: 22,
+                                fontSize: 18,
                                 fontWeight: FontWeight.w500),
                           ),
                           Text(
                             "${data["email"]}",
                             style: const TextStyle(
                                 color: Colors.white,
-                                fontSize: 18,
+                                fontSize: 16,
                                 fontWeight: FontWeight.w400),
                           )
                         ],
@@ -121,7 +121,7 @@ class _DrawerScreenState extends State<DrawerScreen> {
                       title: Text(
                         "${name[index]}",
                         style: const TextStyle(
-                          fontSize: 22,
+                          fontSize: 18,
                         ),
                       ),
                     ),
@@ -159,7 +159,7 @@ class _DrawerScreenState extends State<DrawerScreen> {
                       Text(
                         "Home ",
                         style: TextStyle(
-                          fontSize: 22,
+                          fontSize: 18,
                           color: Colors.white,
                           fontWeight: FontWeight.bold,
                         ),
@@ -190,7 +190,7 @@ class _DrawerScreenState extends State<DrawerScreen> {
                       Text(
                         "Log Out",
                         style: TextStyle(
-                          fontSize: 22,
+                          fontSize: 18,
                           color: Colors.white,
                           fontWeight: FontWeight.bold,
                         ),

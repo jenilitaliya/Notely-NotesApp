@@ -28,7 +28,7 @@ class _CommonTextFormFieldState extends State<CommonTextFormField> {
   @override
   Widget build(BuildContext context) {
     return TextFormField(
-      style: const TextStyle(fontSize: 22),
+      style: const TextStyle(fontSize: 18),
       readOnly: widget.readOnly,
       obscureText: widget.obSecure,
       controller: widget.controller,

@@ -72,7 +72,7 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
         backgroundColor: const Color(0xff435B66),
         title: const Text("Profile"),
         titleTextStyle: const TextStyle(
-            fontSize: 28,
+            fontSize: 22,
             letterSpacing: 2,
             fontWeight: FontWeight.w900,
             shadows: [Shadow(offset: Offset(3, 2), blurRadius: 2)]),
@@ -169,7 +169,7 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                           ),
                           const Text(
                             'Female',
-                            style: TextStyle(fontSize: 20),
+                            style: TextStyle(fontSize: 18),
                           )
                         ],
                       ),

@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -72,7 +70,7 @@ class _HomeScreenState extends State<HomeScreen> {
         title: const Text("Notes"),
         titleSpacing: 2,
         titleTextStyle: const TextStyle(
-            fontSize: 28,
+            fontSize: 24,
             letterSpacing: 2,
             fontWeight: FontWeight.w900,
             shadows: [Shadow(offset: Offset(3, 2), blurRadius: 2)]),
@@ -143,14 +141,14 @@ class _HomeScreenState extends State<HomeScreen> {
                                     Text(
                                       maxLines: 1,
                                       "${data["Title"]}",
-                                      style: const TextStyle(fontSize: 22),
+                                      style: const TextStyle(fontSize: 18),
                                     ),
                                     SizedBox(height: height * 0.01),
                                     Text(
                                       maxLines: 6,
                                       overflow: TextOverflow.ellipsis,
                                       "${data["Description"]}",
-                                      style: const TextStyle(fontSize: 20),
+                                      style: const TextStyle(fontSize: 16),
                                     ),
                                     SizedBox(height: height * 0.01),
                                   ],

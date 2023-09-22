@@ -94,7 +94,7 @@ class _CreateNotesScreenState extends State<CreateNotesScreen> {
             TextField(
           readOnly: read,
           controller: titleController,
-          style: const TextStyle(fontSize: 26, color: Colors.white),
+          style: const TextStyle(fontSize: 22, color: Colors.white),
           expands: false,
           decoration: const InputDecoration(
               hintText: "Title",
@@ -120,7 +120,7 @@ class _CreateNotesScreenState extends State<CreateNotesScreen> {
                 image: read == true
                     ? const AssetImage("assets/images/open-book.png")
                     : const AssetImage("assets/images/book.png"),
-                color: Colors.white,
+                color: Colors.black,
               )),
         ],
         leading: IconButton(
