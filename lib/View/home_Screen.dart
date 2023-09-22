@@ -70,10 +70,10 @@ class _HomeScreenState extends State<HomeScreen> {
         title: const Text("Notes"),
         titleSpacing: 2,
         titleTextStyle: const TextStyle(
-            fontSize: 24,
-            letterSpacing: 2,
-            fontWeight: FontWeight.w900,
-            shadows: [Shadow(offset: Offset(3, 2), blurRadius: 2)]),
+          fontSize: 24,
+          letterSpacing: 2,
+          fontWeight: FontWeight.w900,
+        ),
         leading: IconButton(
           onPressed: () => _scaffoldKey.currentState?.openDrawer(),
           icon: const Image(
