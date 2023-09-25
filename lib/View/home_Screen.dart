@@ -40,7 +40,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     final height = MediaQuery.of(context).size.height;
-    // final width = MediaQuery.of(context).size.width;
+    final width = MediaQuery.of(context).size.width;
     return Scaffold(
       backgroundColor: const Color(0xffeff5fe),
       key: _scaffoldKey,
@@ -82,13 +82,6 @@ class _HomeScreenState extends State<HomeScreen> {
             color: Colors.white,
           ),
         ),
-        actions: [
-          IconButton(
-              onPressed: () {
-                Get.to(const SaveNoteScreen());
-              },
-              icon: const Icon(Icons.bookmark_rounded))
-        ],
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
