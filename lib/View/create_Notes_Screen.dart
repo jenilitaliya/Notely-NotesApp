@@ -62,14 +62,15 @@ class _CreateNotesScreenState extends State<CreateNotesScreen> {
                     await users.doc().set({
                       "Title": title,
                       "Description": description,
-                      "Time": DateTime.now()
+                      "Time": DateTime.now(),
                     });
                     Get.off(() => const HomeScreen());
                   } else {
                     await users.doc(widget.docId).set({
                       "Title": title,
                       "Description": description,
-                      "Time": DateTime.now()
+                      "Time": DateTime.now(),
+                      "save": []
                     });
                     Get.off(() => const HomeScreen());
                   }

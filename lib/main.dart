@@ -22,9 +22,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      themeMode: theme == false ? ThemeMode.dark : ThemeMode.light,
       home: //RegistrationScreen(),
           box.read("uId") != null ? const HomeScreen() : const LogInScreen(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }

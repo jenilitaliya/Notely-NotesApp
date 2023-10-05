@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:notely/View/Authentication/login_Screen.dart';
 import 'package:notely/View/edit_Profile_Screen.dart';
+import 'package:notely/View/save_Note_Screen.dart';
 
 import '../main.dart';
 
@@ -111,7 +112,7 @@ class _DrawerScreenState extends State<DrawerScreen> {
                         index == 0
                             ? Get.to(() => const EditProfileScreen())
                             : index == 1
-                                ? Get.back()
+                                ? Get.to(() => SaveNoteScreen())
                                 : Get.back();
                       },
                       trailing: const Icon(Icons.navigate_next),
